@@ -1,0 +1,584 @@
+[
+    {
+        "problem": "computer_wouldnt_turn_on",
+        "solution": "Check if the power cable is properly connected. Verify if the power outlet is working. Ensure the power supply is switched on. If using a laptop, ensure the battery is charged or connected to a power source."
+    },
+    {
+        "problem": "no_display",
+        "solution": "Check if the monitor is powered on. Verify that the video cable is securely connected to both the monitor and the computer. Try using a different video cable or monitor to rule out faulty hardware."
+    },
+    {
+        "problem": "overheating",
+        "solution": "Ensure the computer is in a well-ventilated area. Clean the fans and air vents to remove dust buildup. Check if the cooling system (fans, heatsinks) is functioning properly. Apply new thermal paste to the CPU if necessary."
+    },
+    {
+        "problem": "slow_performance",
+        "solution": "Run a full antivirus scan to check for malware. Ensure there are no unnecessary programs running in the background. Check if the hard drive is nearly full and free up space if needed. Consider upgrading RAM or switching to an SSD."
+    },
+    {
+        "problem": "strange_noises",
+        "solution": "Identify the source of the noise (e.g., fan, hard drive). Clean the fan or replace it if it's worn out. If the hard drive is making clicking or grinding noises, back up data immediately and consider replacing the drive."
+    },
+    {
+        "problem": "keyboard_not_working",
+        "solution": "Ensure the keyboard is properly connected. Try using a different USB port. If using a wireless keyboard, check the battery and connection. Try the keyboard on another computer to rule out a faulty keyboard."
+    },
+    {
+        "problem": "mouse_not_working",
+        "solution": "Check the connection and try a different USB port. If using a wireless mouse, check the battery and connection. Clean the mouse sensor and ensure there is no debris obstructing it. Test the mouse on another computer."
+    },
+    {
+        "problem": "usb_device_not_recognized",
+        "solution": "Try connecting the USB device to a different port. Restart the computer. Update or reinstall the USB drivers. Test the USB device on another computer to rule out a faulty device."
+    },
+    {
+        "problem": "no_sound",
+        "solution": "Check if the speakers or headphones are properly connected and powered on. Ensure the volume is not muted and is turned up. Update or reinstall audio drivers. Test the sound output with another device."
+    },
+    {
+        "problem": "internet_not_working",
+        "solution": "Check if the network cable is properly connected or if the Wi-Fi is enabled. Restart the router and modem. Run network diagnostics on the computer. Update network drivers. Contact your ISP if the problem persists."
+    },
+    {
+        "problem": "printer_not_printing",
+        "solution": "Ensure the printer is powered on and properly connected to the computer. Check if there is enough paper and ink/toner. Clear any paper jams. Restart the printer and the computer. Reinstall the printer drivers."
+    },
+    {
+        "problem": "blue_screen_of_death",
+        "solution": "Restart the computer. Check for hardware or driver updates. Run a full system scan for malware. Use System Restore to revert to a previous stable state. If the issue persists, consult the error code for specific troubleshooting steps."
+    },
+    {
+        "problem": "random_restarts",
+        "solution": "Check if the computer is overheating. Ensure the power supply is adequate and stable. Run a full system scan for malware. Update all drivers and the operating system. Test the RAM and hard drive for errors."
+    },
+    {
+        "problem": "no_network_connection",
+        "solution": "Verify network cables are properly connected. Restart the router and computer. Check the network adapter settings and ensure it is enabled. Update or reinstall network drivers. Contact your ISP if the problem persists."
+    },
+    {
+        "problem": "external_drive_not_detected",
+        "solution": "Try connecting the external drive to a different USB port. Restart the computer. Update or reinstall USB drivers. Test the external drive on another computer. If the drive is still not detected, consider professional data recovery services."
+    },
+    {
+        "problem": "battery_not_charging",
+        "solution": "Check the power adapter and ensure it is properly connected. Test with a different power adapter if available. Remove the battery and clean the contacts. If the battery is old, consider replacing it."
+    },
+    {
+        "problem": "fan_not_spinning",
+        "solution": "Ensure the fan is properly connected to the motherboard. Clean the fan to remove any dust or debris. If the fan is faulty, replace it. Check the BIOS settings to ensure fan control is enabled."
+    },
+    {
+        "problem": "hard_drive_not_detected",
+        "solution": "Check if the hard drive is properly connected to the motherboard. Ensure power cables are securely connected. Enter the BIOS to see if the drive is recognized. If not, test with a different data cable or on another computer."
+    },
+    {
+        "problem": "screen_flickering",
+        "solution": "Check the video cable and connections. Update or reinstall graphics drivers. Adjust the refresh rate settings in the display settings. Test with a different monitor to rule out a hardware issue."
+    },
+    {
+        "problem": "wifi_dropping_connection",
+        "solution": "Restart the router and modem. Update the Wi-Fi adapter drivers. Change the Wi-Fi channel in the router settings. Ensure the computer is within range of the Wi-Fi signal. Disable power-saving settings for the Wi-Fi adapter."
+    },
+    {
+      "problem": "Laptop won't turn on",
+      "solution": "Ensure that the laptop is properly charged. Try using a different power adapter or cable. Remove the battery (if possible) and hold down the power button for 30 seconds, then try turning it on again. Check for any signs of physical damage."
+    },
+    {
+      "problem": "Computer overheats frequently",
+      "solution": "Ensure that the computer's vents are not blocked and that there is adequate airflow. Clean the internal components, such as the fans and heat sinks, to remove dust. Consider using a cooling pad for laptops. Check if the thermal paste needs to be reapplied."
+    },  
+      {
+          "problem": "Keyboard not working",
+          "solution": "Ensure that the keyboard is properly connected. Try using a different USB port or replacing the batteries (if wireless). Check for any stuck keys or debris under the keys. Restart the computer and try again."
+        },
+        {
+          "problem": "Mouse not working",
+          "solution": "Ensure that the mouse is properly connected. Try using a different USB port or replacing the batteries (if wireless). Check for any debris or obstructions under the mouse. Restart the computer and try again."
+        },
+        {
+          "problem": "Computer beeps on startup",
+          "solution": "Note the pattern of the beeps and look up the beep code for your computer's BIOS. Check if any hardware components, such as RAM or graphics card, are loose or improperly seated. Consult your computer's manual or manufacturer for further troubleshooting."
+        },
+        {
+          "problem": "Hard drive not detected",
+          "solution": "Ensure that the hard drive is properly connected to the computer. Try using a different SATA or power cable. Check if the hard drive is detected in the BIOS. Test the hard drive in another computer or use a different hard drive to determine if the issue is with the hard drive or the computer."
+        },
+        {
+          "problem": "USB device not recognized",
+          "solution": "Try connecting the USB device to a different port. Ensure that the USB drivers are up to date. Check if the USB device works on another computer. Restart the computer and try again."
+        },
+        {
+          "problem": "Wi-Fi not working",
+          "solution": "Ensure that the Wi-Fi is turned on and that you are within range of the router. Restart your router and modem. Check if other devices can connect to the Wi-Fi. Update your Wi-Fi drivers and check the network settings."
+        },
+        {
+          "problem": "Battery drains quickly",
+          "solution": "Reduce the screen brightness and close any unnecessary applications. Disable Bluetooth and Wi-Fi when not in use. Check for any power-hungry applications running in the background. Consider replacing the battery if it is old or damaged."
+        },
+        {
+          "problem": "No sound from speakers",
+          "solution": "Ensure that the speakers are properly connected and turned on. Check the volume settings and ensure that the audio is not muted. Update the audio drivers. Test the speakers with another device to determine if the issue is with the speakers or the computer."
+        },
+        {
+          "problem": "Computer freezes or crashes",
+          "solution": "Check for any software conflicts or malware infections. Ensure that your computer is not overheating. Update your drivers and operating system. Run a memory test to check for any issues with the RAM."
+        },
+        {
+          "problem": "Screen flickering",
+          "solution": "Ensure that the video cable is properly connected. Check for any loose connections or damaged cables. Update your graphics drivers. Test the monitor with another computer to determine if the issue is with the monitor or the computer."
+        },
+        {
+          "problem": "CD/DVD drive not working",
+          "solution": "Ensure that the drive is properly connected. Check if the drive is detected in the BIOS. Clean the drive lens with a lens cleaning disc. Try using a different CD/DVD to determine if the issue is with the disc or the drive."
+        },
+        {
+          "problem": "Touchpad not working",
+          "solution": "Ensure that the touchpad is not disabled in the settings. Try using an external mouse to navigate. Update the touchpad drivers. Restart the computer and try again."
+        },
+        {
+          "problem": "Bluetooth not working",
+          "solution": "Ensure that Bluetooth is enabled on your computer. Check if the Bluetooth device is properly paired. Update the Bluetooth drivers. Restart your computer and try again."
+        },
+        {
+          "problem": "Laptop screen is dim",
+          "solution": "Increase the screen brightness using the function keys or settings menu. Check if the power saving mode is enabled and disable it. Update your graphics drivers. If the issue persists, the backlight or inverter might need to be replaced."
+        },
+        {
+          "problem": "Computer randomly restarts",
+          "solution": "Check if your computer is overheating. Ensure that your power supply is stable and sufficient for your system. Update your drivers and operating system. Check for any malware infections."
+        },
+        {
+          "problem": "Graphics card not detected",
+          "solution": "Ensure that the graphics card is properly seated in the PCI-E slot. Update your graphics drivers. Check if the graphics card is detected in the BIOS. Test the graphics card in another computer to determine if the issue is with the card or the motherboard."
+        },
+        {
+          "problem": "Slow USB transfer speeds",
+          "solution": "Ensure that you are using a USB 3.0 port and cable for faster transfer speeds. Update your USB drivers. Check if the USB device itself supports high-speed transfers. Avoid using USB hubs or extension cables."
+        },
+        {
+          "problem": "Fan noise is too loud",
+          "solution": "Clean the fans and vents to remove dust buildup. Ensure that the fans are not obstructed. Check your computer's power settings and adjust the fan speed settings if possible. Consider replacing the fans if they are old or damaged."
+        },
+        {
+          "problem": "External hard drive not recognized",
+          "solution": "Try connecting the external hard drive to a different port. Check if the external hard drive works on another computer. Ensure that the drivers for the external hard drive are up to date. Check if the external hard drive is detected in Disk Management."
+        },
+        {
+          "problem": "Monitor resolution issues",
+          "solution": "Ensure that your graphics drivers are up to date. Check the display settings and adjust the resolution to the recommended settings. Try using a different video cable or port. Test the monitor with another computer."
+        },
+        {
+          "problem": "Motherboard not powering on",
+          "solution": "Ensure that the power supply is properly connected to the motherboard. Check for any loose or damaged cables. Test the power supply with another computer or use a different power supply to determine if the issue is with the power supply or the motherboard."
+        },
+        {
+          "problem": "Headphones not working",
+          "solution": "Ensure that the headphones are properly connected. Check the audio settings and ensure that the correct playback device is selected. Update your audio drivers. Test the headphones with another device."
+        },
+        {
+          "problem": "Ethernet connection not working",
+          "solution": "Ensure that the Ethernet cable is properly connected. Restart your router and modem. Check if other devices can connect using the same Ethernet cable. Update your network drivers."
+        },
+        {
+          "problem": "Power supply unit (PSU) issues",
+          "solution": "Ensure that the PSU is properly connected to the motherboard and other components. Check if the PSU fan is working. Test the PSU with another computer or use a different PSU to determine if the issue is with the PSU. Replace the PSU if necessary."
+        },
+        {
+          "problem": "Laptop hinge is loose",
+          "solution": "Tighten the screws around the hinge area. If the hinge is damaged, consider replacing it. Be gentle when opening and closing the laptop lid to avoid further damage."
+        },
+        {
+          "problem": "Webcam not working",
+          "solution": "Ensure that the webcam is properly connected. Check if the webcam is enabled in the settings. Update the webcam drivers. Test the webcam with another application."
+        },
+        {
+          "problem": "RAM not detected",
+          "solution": "Ensure that the RAM is properly seated in the memory slots. Try using a different RAM slot. Check if the RAM is compatible with your motherboard. Test the RAM in another computer or use a different RAM module."
+        },
+        {
+          "problem": "Laptop touch screen not working",
+          "solution": "Ensure that the touch screen is enabled in the settings. Update the touch screen drivers. Restart your computer. Calibrate the touch screen if necessary."
+        },
+        {
+          "problem": "hard_drive_not_detected",
+          "solution": "Check if the hard drive is properly connected to the motherboard. Ensure power cables are securely connected. Enter the BIOS to see if the drive is recognized."
+      },
+      {
+          "problem": "screen_flickering",
+          "solution": "Check the video cable and connections. Update or reinstall graphics drivers. Adjust the refresh rate settings in the display settings."
+      },
+      {
+          "problem": "wifi_dropping_connection",
+          "solution": "Restart the router and modem. Update the Wi-Fi adapter drivers. Change the Wi-Fi channel in the router settings. Ensure the computer is within range."
+      },
+      {
+          "problem": "laptop_wont_turn_on",
+          "solution": "Ensure that the laptop is properly charged. Try using a different power adapter or cable. Remove the battery (if possible) and hold down the power button for 30 seconds."
+      },
+      {
+          "problem": "computer_overheats_frequently",
+          "solution": "Ensure that the computer's vents are not blocked and that there is adequate airflow. Clean the internal components, such as the fans and heat sinks, to remove dust buildup."
+      },
+      {
+          "problem": "keyboard_not_working",
+          "solution": "Ensure that the keyboard is properly connected. Try using a different USB port or replacing the batteries (if wireless). Check for any software or driver issues."
+      },
+      {
+          "problem": "mouse_not_working",
+          "solution": "Ensure that the mouse is properly connected. Try using a different USB port or replacing the batteries (if wireless). Check for any driver issues."
+      },
+      {
+          "problem": "usb_device_not_recognized",
+          "solution": "Ensure the USB device is properly connected. Try using a different USB port. Update the USB drivers. Check the device on another computer to see if it's working."
+      },
+      {
+          "problem": "no_sound_from_speakers",
+          "solution": "Ensure the speakers are connected to the correct port. Check the volume settings. Update the audio drivers. Test the speakers on another device."
+      },
+      {
+          "problem": "printer_not_responding",
+          "solution": "Ensure the printer is powered on and properly connected to the computer. Restart the printer and check for updated drivers. Try reinstalling the printer."
+      },
+      {
+          "problem": "bluetooth_not_working",
+          "solution": "Ensure Bluetooth is enabled on the computer and the device. Restart both the computer and the Bluetooth device. Reinstall the Bluetooth drivers."
+      },
+      {
+          "problem": "monitor_display_not_turning_on",
+          "solution": "Check the power connection to the monitor. Ensure the video cable is securely connected to both the monitor and the computer. Test with another monitor or cable."
+      },
+      {
+          "problem": "system_freezes_randomly",
+          "solution": "Check for overheating issues. Run hardware diagnostics on the RAM and hard drive. Update drivers and check for malware. Ensure there is enough free disk space."
+      },
+      {
+          "problem": "system_boots_to_black_screen",
+          "solution": "Check the video cable connection. Ensure the monitor is set to the correct input. Boot into safe mode and reinstall the graphics drivers."
+      },
+      {
+          "problem": "fan_not_spinning",
+          "solution": "Ensure the fan is connected to the motherboard. Check the BIOS settings to ensure the fan is enabled. Replace the fan if it’s faulty."
+      },
+      {
+          "problem": "battery_drains_quickly",
+          "solution": "Check for background processes that are consuming power. Reduce screen brightness and disable unnecessary devices. Replace the battery if it’s worn out."
+      },
+      {
+          "problem": "power_button_not_working",
+          "solution": "Check the power button connection to the motherboard. Ensure the power supply is working correctly. Test the button with a multimeter."
+      },
+      {
+          "problem": "system_not_detecting_ram",
+          "solution": "Reseat the RAM modules. Test each module individually. Ensure the RAM is compatible with the motherboard. Update the BIOS."
+      },
+      {
+          "problem": "no_internet_connection",
+          "solution": "Restart the modem and router. Ensure the network cables are securely connected. Run the network troubleshooter. Update the network adapter drivers."
+      },
+      {
+          "problem": "external_hard_drive_not_showing_up",
+          "solution": "Check the connection to the computer. Try using a different USB port. Update the disk drivers. Check if the drive is recognized in Disk Management."
+      },
+      {
+          "problem": "cpu_overheating",
+          "solution": "Ensure the CPU cooler is properly installed. Clean the cooler and apply new thermal paste. Ensure proper airflow inside the case."
+      },
+      {
+          "problem": "computer_wont_start_after_power_outage",
+          "solution": "Unplug the computer and hold the power button for 30 seconds. Check the power supply. Reset the CMOS by removing the battery for a few minutes."
+      },
+      {
+          "problem": "optical_drive_not_reading_discs",
+          "solution": "Ensure the disc is clean and not scratched. Try using a different disc. Update the optical drive firmware. Replace the drive if necessary."
+      },
+      {
+          "problem": "graphics_card_not_detected",
+          "solution": "Ensure the graphics card is properly seated in the PCIe slot. Check the power connections to the card. Update the motherboard BIOS and graphics drivers."
+      },
+      {
+          "problem": "computer_restarts_randomly",
+          "solution": "Check for overheating issues. Run hardware diagnostics on the RAM and power supply. Update drivers and ensure the system is free of malware."
+      },
+      {
+          "problem": "usb_ports_not_working",
+          "solution": "Check if the USB ports are enabled in the BIOS. Update the USB drivers. Test the ports with a different device. Replace the motherboard if necessary."
+      },
+      {
+          "problem": "camera_not_working",
+          "solution": "Ensure the camera is connected and enabled. Update the camera drivers. Check the privacy settings to ensure the camera is allowed to be used."
+      },
+      {
+          "problem": "microphone_not_detected",
+          "solution": "Ensure the microphone is connected to the correct port. Update the audio drivers. Check the privacy settings to ensure the microphone is allowed to be used."
+      },
+      {
+          "problem": "error_beeps_during_boot",
+          "solution": "Check the motherboard manual for the meaning of the beep code. Reseat the RAM and check for any loose connections. Replace faulty components if necessary."
+      },
+      {
+          "problem": "disk_drive_makes_clicking_noise",
+          "solution": "Backup important data immediately. Run diagnostics on the drive. Replace the hard drive if the noise continues, as it could indicate impending failure."
+      },
+      {
+          "problem": "laptop_heats_up_while_charging",
+          "solution": "Check for any blockages around the vents. Use a cooling pad. Replace the battery if it’s swelling or excessively hot."
+      },
+      {
+          "problem": "system_crashes_when_running_games",
+          "solution": "Ensure the graphics drivers are up to date. Check for overheating. Run diagnostics on the RAM and graphics card."
+      },
+      {
+          "problem": "touchpad_not_responding",
+          "solution": "Ensure the touchpad is enabled in the settings. Update the touchpad drivers. Try disabling and re-enabling the touchpad in the Device Manager."
+      },
+      {
+          "problem": "bios_not_saving_changes",
+          "solution": "Replace the CMOS battery. Update the BIOS. Ensure the changes are saved correctly before exiting the BIOS."
+      },
+      {
+          "problem": "computer_shuts_down_during_boot",
+          "solution": "Check for overheating. Run diagnostics on the power supply. Ensure all internal components are properly connected."
+      },
+      {
+          "problem": "power_supply_fails",
+          "solution": "Check the power supply connections. Test the power supply with a multimeter. Replace the power supply if it’s faulty."
+      },
+      {
+          "problem": "screen_display_is_distorted",
+          "solution": "Check the video cable connections. Update or reinstall the graphics drivers. Test with a different monitor or cable."
+      },
+      {
+          "problem": "ram_slots_not_working",
+          "solution": "Test each RAM slot with known working RAM modules. Clean the RAM slots with compressed air. Update the motherboard BIOS."
+      },
+      {
+          "problem": "laptop_screen_dimmer_than_usual",
+          "solution": "Adjust the screen brightness settings. Check the power settings. Update or reinstall the graphics drivers."
+      },
+      {
+          "problem": "dvd_drive_not_opening",
+          "solution": "Check for any physical obstructions. Use a paperclip to manually eject the drive. Replace the drive if necessary."
+      },
+      {
+          "problem": "usb_flash_drive_not_detected",
+          "solution": "Ensure the USB flash drive is properly connected. Try using a different USB port or computer. Format the drive if necessary."
+      },
+      {
+          "problem": "computer_turns_on_but_no_display",
+          "solution": "Check the video cable and monitor. Reseat the RAM and graphics card. Check if the motherboard's diagnostic LEDs indicate a problem."
+      },
+      {
+          "problem": "no_post_beeps",
+          "solution": "Check the power supply and ensure the CPU and RAM are seated correctly. Check the motherboard's manual for specific troubleshooting steps."
+      },
+      {
+          "problem": "slow_computer_performance",
+          "solution": "Check for malware and run a virus scan. Ensure there is sufficient disk space. Upgrade the RAM or switch to an SSD."
+      },
+      {
+          "problem": "display_shows_artifacts",
+          "solution": "Ensure the graphics card is properly seated and check for overheating. Update the graphics drivers. If the issue persists, replace the card."
+      },
+      {
+          "problem": "laptop_battery_not_charging",
+          "solution": "Ensure the charger is working properly. Check the charging port for damage. Replace the battery if it’s no longer holding a charge."
+      },
+      {
+          "problem": "headphones_not_detected",
+          "solution": "Ensure the headphones are properly connected. Check the audio settings. Update or reinstall the audio drivers."
+      },
+      {
+          "problem": "laptop_wont_go_into_sleep_mode",
+          "solution": "Check the power settings and ensure sleep mode is enabled. Update the BIOS and power management drivers."
+      },
+      {
+          "problem": "windows_doesnt_recognize_ssd",
+          "solution": "Ensure the SSD is properly connected. Update the storage drivers. Initialize the SSD in Disk Management."
+      },
+      {
+          "problem": "graphics_card_fans_not_spinning",
+          "solution": "Ensure the power connectors to the graphics card are properly connected. Check the card's fan control settings."
+      },
+      {
+          "problem": "laptop_screen_not_rotating",
+          "solution": "Ensure the auto-rotate feature is enabled. Update the display drivers. Calibrate the accelerometer."
+      },
+      {
+          "problem": "laptop_hinges_loose",
+          "solution": "Tighten the hinge screws. Replace the hinges if they are damaged or excessively worn."
+      },
+      {
+          "problem": "pc_shuts_down_during_gameplay",
+          "solution": "Check for overheating and ensure proper ventilation. Run diagnostics on the GPU and power supply. Update drivers."
+      },
+      {
+          "problem": "computer_wont_shutdown",
+          "solution": "Check for any running processes that could prevent shutdown. Update the BIOS and chipset drivers."
+      },
+      {
+          "problem": "ssd_not_showing_in_bios",
+          "solution": "Check the SATA or NVMe connections. Update the BIOS. Ensure the SSD is not defective."
+      },
+      {
+          "problem": "windows_wont_boot",
+          "solution": "Run startup repair from a Windows installation disk. Check the boot order in BIOS. Reinstall Windows if necessary."
+      },
+      {
+          "problem": "usb_mouse_lagging",
+          "solution": "Ensure the mouse is properly connected. Update the USB and mouse drivers. Check for any power settings affecting USB devices."
+      },
+      {
+          "problem": "desktop_case_fan_makes_noise",
+          "solution": "Ensure the fan is properly mounted. Clean the fan blades and bearings. Replace the fan if it’s worn out."
+      },
+      {
+          "problem": "computer_wont_exit_bios",
+          "solution": "Ensure the boot drive is properly connected. Check the boot order settings. Clear the CMOS."
+      },
+      {
+          "problem": "laptop_touchscreen_not_working",
+          "solution": "Ensure the touchscreen is enabled. Update or reinstall the touchscreen drivers. Calibrate the touchscreen."
+      },
+      {
+          "problem": "ram_not_showing_full_capacity",
+          "solution": "Check if the RAM modules are properly seated. Update the BIOS. Ensure the system is not reserving RAM for hardware."
+      },
+      {
+          "problem": "laptop_backlight_not_working",
+          "solution": "Check the brightness settings. Replace the backlight inverter. If necessary, replace the display panel."
+      },
+      {
+          "problem": "computer_stuck_on_logo_screen",
+          "solution": "Check for any connected external devices causing the issue. Clear the CMOS. Run diagnostics on the storage device."
+      },
+      {
+          "problem": "audio_jack_not_working",
+          "solution": "Ensure the audio jack is properly connected. Update the audio drivers. Test the jack with different devices."
+      },
+      {
+          "problem": "screen_too_bright_or_too_dim",
+          "solution": "Adjust the brightness settings in the display settings. Update or reinstall the graphics drivers."
+      },
+      {
+          "problem": "laptop_lid_sensor_not_working",
+          "solution": "Check if the lid sensor is obstructed. Update the BIOS and power management drivers. Replace the sensor if needed."
+      },
+      {
+          "problem": "network_adapter_not_detected",
+          "solution": "Ensure the network adapter is properly installed. Update the network adapter drivers. Replace the adapter if necessary."
+      },
+      {
+          "problem": "pc_case_button_not_responding",
+          "solution": "Check the connection to the motherboard. Test the button with a multimeter. Replace the button if faulty."
+      },
+      {
+          "problem": "touchscreen_frequently_unresponsive",
+          "solution": "Ensure the screen is clean and free of debris. Update the touchscreen drivers. Recalibrate the touchscreen."
+      },
+      {
+          "problem": "windows_time_incorrect",
+          "solution": "Ensure the time zone is set correctly. Replace the CMOS battery. Sync the time with an internet server."
+      },
+      {
+          "problem": "laptop_freezes_when_charging",
+          "solution": "Update the power management drivers. Check the charger and battery for defects. Replace faulty components."
+      },
+      {
+          "problem": "keyboard_keys_sticking",
+          "solution": "Clean the keyboard to remove debris. Ensure the keys are not physically damaged. Replace the keyboard if necessary."
+      },
+      {
+          "problem": "usb_hub_not_working",
+          "solution": "Ensure the USB hub is powered (if applicable). Try connecting the hub to a different port. Update the USB drivers."
+      },
+      {
+          "problem": "laptop_fan_loud",
+          "solution": "Clean the fan and vents to remove dust. Update the BIOS to adjust fan control settings. Replace the fan if necessary."
+      },
+      {
+          "problem": "multiple_monitors_not_working",
+          "solution": "Ensure the monitors are properly connected. Check the display settings. Update the graphics drivers."
+      },
+      {
+          "problem": "usb_c_device_not_working",
+          "solution": "Ensure the USB-C device is properly connected. Check if the port supports the connected device. Update the drivers."
+      },
+      {
+          "problem": "wifi_not_detecting_networks",
+          "solution": "Restart the Wi-Fi adapter. Update the drivers. Check if the Wi-Fi networks are hidden or outside of range."
+      },
+      {
+          "problem": "screen_frozen_during_updates",
+          "solution": "Wait for the updates to finish. If stuck for a long time, perform a hard reset and try the update again."
+      },
+      {
+          "problem": "laptop_camera_fuzzy_image",
+          "solution": "Clean the camera lens. Adjust the resolution settings. Update the camera drivers."
+      },
+      {
+          "problem": "external_monitor_not_displaying",
+          "solution": "Ensure the external monitor is powered on and properly connected. Check the display settings to extend or duplicate the screen."
+      },
+      {
+          "problem": "laptop_randomly_hibernates",
+          "solution": "Check the power settings to ensure hibernation is disabled. Update the BIOS and power management drivers."
+      },
+      {
+          "problem": "wireless_keyboard_not_pairing",
+          "solution": "Ensure the keyboard is in pairing mode. Check for interference from other devices. Update the Bluetooth drivers."
+      },
+      {
+          "problem": "windows_updates_fail_to_install",
+          "solution": "Run the Windows Update Troubleshooter. Check the system for corruption using SFC. Manually install the update."
+      },
+      {
+          "problem": "cd_dvd_drive_skipping_media",
+          "solution": "Clean the drive and discs. Check for firmware updates. Replace the drive if necessary."
+      },
+      {
+          "problem": "laptop_screen_flickering_in_bios",
+          "solution": "Check for loose connections to the display. Update the BIOS. If the issue persists, replace the display or motherboard."
+      },
+      {
+          "problem": "thunderbolt_device_not_recognized",
+          "solution": "Ensure the Thunderbolt device is properly connected. Update the Thunderbolt drivers and firmware. Test the device on another port or system."
+      },
+      {
+          "problem": "computer_restarts_when_closing_programs",
+          "solution": "Check for corrupted system files using SFC. Ensure the system is free from malware. Update drivers and run hardware diagnostics."
+      },
+      {
+          "problem": "laptop_screen_bleeding",
+          "solution": "Check if the screen bleed is due to physical damage. Adjust the screen brightness. If necessary, replace the display."
+      },
+      {
+          "problem": "external_gpu_not_detected",
+          "solution": "Ensure the external GPU is properly connected and powered. Update the drivers. Test with another computer."
+      },
+      {
+          "problem": "usb_type_c_port_loose",
+          "solution": "Check if the port is damaged or worn. Use a different cable. Replace the port if necessary."
+      },
+      {
+          "problem": "laptop_wont_power_on_when_battery_is_low",
+          "solution": "Try using a different power adapter. Check for any damage to the charging port. Replace the battery if necessary."
+      },
+      {
+          "problem": "laptop_display_is_fuzzy",
+          "solution": "Check the display settings to ensure the resolution is correct. Update the graphics drivers. If the issue persists, replace the display."
+      },
+      {
+          "problem": "laptop_makes_clicking_noise_when_moving",
+          "solution": "Check for loose components. Test the hard drive for any issues. Replace the hard drive if necessary."
+      },
+      {
+          "problem": "laptop_battery_not_holding_charge",
+          "solution": "Test the battery's health using the manufacturer's diagnostic tool. Replace the battery if it’s worn out."
+      },
+      {
+          "problem": "touchpad_frequently_freezes",
+          "solution": "Ensure the touchpad is enabled. Update the touchpad drivers. Reinstall the touchpad software if necessary."
+      }
+    
+      
+]

@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Expert System</title>
+	<link rel="stylesheet" type="text/css" href="../static/css/style.css">
+    <link rel="icon" type="icon/png" href="../static/logo.png">
+</head>
+<body>
+	<div class="preloader">
+		<div class="loader"></div>
+	</div>
+	
+	<div class="page-1" style="display: none;">
+		<div class="hero">
+			<img src="../static/screw.png" class="overlap" />
+			<h1 style="width: 60%;">Welcome to the Hardware and Software Expert System</h1>
+			<p style="margin-top: 20px;">Empowering you with cutting-edge technology solutions tailored to your needs.</p>
+			<button class="get-started" id="get-started">Get Started &nbsp; <b>&#187;</b></button>
+		</div>
+	</div>
+	
+	<div class="page-2" style="display: none;">
+		<h1 class="head-text"><img src="../static/logo.png" width="70px" height="70px">ExpertFix</h1>
+    <div class="query">
+        <form method="POST" action="/diagnose" id="input-section">
+            <input type="text" class="input" id="problem" name="problem" placeholder="Ask ExpertFix" required>
+            <button type="submit" id="prompt">&#10532;</button>
+        </form>
+    </div>
+    <div class="response">
+        <div class="temporary" id="temporary">
+            <p>🪛</p>
+            <p>What is the hardware or<br />software issue? </p>
+        </div>
+        {% if problem %}
+            <div class="problem">
+                <h2 id="visibility">{{ problem }}</h2>
+            </div>
+            <div class="solution">
+                <h3>&#11106;<span class="animated-text">{{ solution }}</span></h3>
+            </div>
+        {% endif %}
+    </div>
+	</div>
+	
+	<script src="../static/js/script.js"></script>
+</body>
+</html>

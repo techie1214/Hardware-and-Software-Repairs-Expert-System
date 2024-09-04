@@ -1,0 +1,563 @@
+[
+    {
+        "problem": "application_crash",
+        "solution": "Restart the application. If the issue persists, check for software updates and apply any available patches."
+    },
+    {
+        "problem": "slow_performance",
+        "solution": "Close unnecessary applications and processes. Clear temporary files and cache. Consider upgrading hardware if performance does not improve."
+    },
+    {
+        "problem": "software_update_failure",
+        "solution": "Ensure the device is connected to the internet. Restart the device and try the update again. If the issue persists, download the update manually from the software's official website."
+    },
+    {
+        "problem": "unable_to_install_software",
+        "solution": "Check system requirements and ensure they are met. Run the installer as an administrator. Disable any antivirus software temporarily during the installation."
+    },
+    {
+        "problem": "application_not_responding",
+        "solution": "Wait for a few minutes to see if the application starts responding. If not, force close the application and restart it. Check for updates or reinstall the application if the issue persists."
+    },
+    {
+        "problem": "network_connectivity_issues",
+        "solution": "Restart the router and the device. Check network settings and ensure they are configured correctly. Disable and re-enable the network adapter."
+    },
+    {
+        "problem": "blue_screen_of_death",
+        "solution": "Note the error code displayed. Restart the computer. Ensure all drivers are up to date. Run a hardware diagnostic test to check for issues."
+    },
+    {
+        "problem": "printer_not_working",
+        "solution": "Check printer connections and ensure it is powered on. Restart the printer and the device. Reinstall the printer drivers if necessary."
+    },
+    {
+        "problem": "audio_not_working",
+        "solution": "Check the audio connections and ensure the volume is not muted. Restart the audio service. Update or reinstall the audio drivers."
+    },
+    {
+        "problem": "disk_space_full",
+        "solution": "Delete unnecessary files and applications. Use disk cleanup tools to free up space. Consider upgrading to a larger disk or using external storage."
+    },
+    {
+        "problem": "email_not_syncing",
+        "solution": "Check internet connection. Ensure email account settings are correct. Re-enter the email account credentials or remove and re-add the account."
+    },
+    {
+        "problem": "slow_internet_speed",
+        "solution": "Restart the router and the device. Check for background applications using bandwidth. Contact your internet service provider if the issue persists."
+    },
+    {
+        "problem": "file_corruption",
+        "solution": "Try to open the file with different software. Restore from a backup if available. Use file repair tools to attempt recovery."
+    },
+    {
+        "problem": "password_reset_issue",
+        "solution": "Ensure the entered email or username is correct. Check spam/junk folders for reset emails. Contact support if the reset email is not received."
+    },
+    {
+        "problem": "browser_crashes",
+        "solution": "Clear browser cache and cookies. Disable browser extensions one by one to identify the problematic one. Update the browser to the latest version."
+    },
+    {
+        "problem": "data_sync_issues",
+        "solution": "Ensure the device is connected to the internet. Restart the application and the device. Check for software updates and apply them."
+    },
+    {
+        "problem": "vpn_connection_failed",
+        "solution": "Check internet connection. Verify VPN settings and credentials. Restart the VPN client and the device."
+    },
+    {
+        "problem": "remote_desktop_not_working",
+        "solution": "Ensure the remote desktop service is enabled. Check network connection and firewall settings. Verify the remote device is powered on and accessible."
+    },
+    {
+        "problem": "security_alerts",
+        "solution": "Run a full system antivirus scan. Ensure all software and operating systems are up to date. Remove or quarantine any detected threats."
+    },
+    {
+        "problem": "software_license_issue",
+        "solution": "Verify the license key and ensure it is correctly entered. Check the license's expiration date and renew if necessary. Contact software support for further assistance."
+    },
+        {
+          "problem": "The application crashes frequently",
+          "solution": "Ensure that your system meets the minimum requirements for the application. Update the application to the latest version. If the problem persists, try reinstalling the application. Check for any software conflicts or memory issues."
+        },
+        {
+          "problem": "Unable to install software",
+          "solution": "Check if you have enough disk space. Ensure that you have the necessary permissions to install software. Disable any antivirus software temporarily and try again. Check if the software is compatible with your operating system."
+        },
+        {
+          "problem": "Software running slowly",
+          "solution": "Close any unnecessary programs running in the background. Check for updates to the software and your operating system. Increase your computer's RAM or free up disk space. Perform a virus scan to ensure there are no malware infections."
+        },
+        {
+          "problem": "Software not responding",
+          "solution": "Force close the application using Task Manager (Windows) or Activity Monitor (Mac). Restart your computer. Check for any available updates for the software. Reinstall the software if the problem persists."
+        },
+        {
+          "problem": "Error messages during software installation",
+          "solution": "Note down the error message and look it up online for specific troubleshooting steps. Ensure that your system meets the software's requirements. Run the installer as an administrator. Disable any antivirus software temporarily and try again."
+        },
+        {
+          "problem": "Software won't open",
+          "solution": "Restart your computer. Check for any available updates for the software and your operating system. Reinstall the software if necessary. Check for any software conflicts or corrupt files."
+        },
+        {
+          "problem": "Unable to update software",
+          "solution": "Check your internet connection. Ensure that there is enough disk space for the update. Temporarily disable any antivirus software and try again. Check the software's website for any known issues with updates."
+        },
+        {
+          "problem": "Missing or corrupted files",
+          "solution": "Verify the integrity of the software files. Reinstall the software to replace any missing or corrupted files. Check for any hardware issues, such as a failing hard drive, that might be causing file corruption."
+        },
+        {
+          "problem": "License or activation issues",
+          "solution": "Ensure that you are using a valid license key. Check if there are any restrictions or limitations on the number of devices you can activate. Contact the software's customer support for assistance with activation issues."
+        },
+        {
+          "problem": "Compatibility issues with operating system",
+          "solution": "Check the software's system requirements to ensure compatibility with your operating system. Look for any available updates or patches for the software that address compatibility issues. Consider using a virtual machine or compatibility mode if necessary."
+        },
+        {
+          "problem": "Printer not working with software",
+          "solution": "Ensure that the printer is properly connected and turned on. Check if the printer drivers are up to date. Restart the printer and your computer. Try printing a test page from another application to verify if the issue is specific to the software."
+        },
+        {
+          "problem": "Cannot connect to the internet",
+          "solution": "Restart your modem and router. Check if other devices can connect to the internet. Verify that the correct network settings are configured in your software. Disable any firewall or antivirus software temporarily to see if it resolves the issue."
+        },
+        {
+          "problem": "Unable to open email attachments",
+          "solution": "Check if the email attachment format is supported by your software. Ensure that the software is up to date. Try opening the attachment in a different application. Scan the attachment for viruses before opening."
+        },
+        {
+          "problem": "Software crashes on startup",
+          "solution": "Run the software as an administrator. Check for any updates for the software and your operating system. Reinstall the software if necessary. Ensure that your computer meets the minimum system requirements for the software."
+        },
+        {
+          "problem": "Slow internet browser performance",
+          "solution": "Clear your browser's cache and cookies. Disable any unnecessary browser extensions or add-ons. Update your browser to the latest version. Check for any malware or viruses that might be affecting browser performance."
+        },
+        {
+          "problem": "Application freezes during use",
+          "solution": "Check if the application is up to date. Close and reopen the application. Restart your computer. Check for any available software updates for your operating system."
+        },
+        {
+          "problem": "Blue screen of death (BSOD)",
+          "solution": "Note the error code on the blue screen and look it up for specific troubleshooting steps. Ensure that all your drivers are up to date. Check for any recent hardware or software changes that might have caused the issue. Run a memory test to check for any RAM issues."
+        },
+        {
+          "problem": "Disk usage at 100%",
+          "solution": "Check Task Manager to identify the process using the most disk resources. Disable unnecessary startup programs. Update your operating system and drivers. Run a virus scan to ensure there are no malware infections."
+        },
+        {
+          "problem": "Unable to access certain websites",
+          "solution": "Check your internet connection. Clear your browser's cache and cookies. Ensure that the website is not down or blocked by your internet service provider. Disable any browser extensions or add-ons that might be interfering."
+        },
+        {
+          "problem": "VPN connection issues",
+          "solution": "Ensure that you have the correct VPN settings and credentials. Check if your internet connection is working properly. Restart your router and modem. Update your VPN client to the latest version."
+        },
+        {
+          "problem": "Application not displaying correctly",
+          "solution": "Ensure that your screen resolution and scaling settings are correct. Check if there are any updates available for the application. Reinstall the application if necessary. Try running the application in compatibility mode."
+        },
+        {
+          "problem": "Unable to download files",
+          "solution": "Check your internet connection. Ensure that there is enough disk space for the download. Disable any antivirus software temporarily and try again. Check if the download source is reliable and not blocked by your network."
+        },
+        {
+          "problem": "Email not syncing",
+          "solution": "Check your internet connection. Ensure that your email settings are correct. Restart your email client. Remove and re-add your email account."
+        },
+        {
+          "problem": "Screen goes black randomly",
+          "solution": "Check your power settings and disable any unnecessary power-saving features. Ensure that your graphics drivers are up to date. Check for any loose or damaged cables. Test with another monitor to determine if the issue is with the monitor or the computer."
+        },
+        {
+          "problem": "Sound distorted or crackling",
+          "solution": "Ensure that your audio drivers are up to date. Check your audio settings and ensure that the correct playback device is selected. Test with another set of speakers or headphones. Restart your computer."
+        },
+        {
+          "problem": "windows_not_booting",
+          "solution": "Use Windows Startup Repair. Check for disk errors using chkdsk. Reinstall Windows if necessary."
+      },
+      {
+          "problem": "software_crashing",
+          "solution": "Update the software to the latest version. Reinstall the software if the issue persists. Check for system compatibility."
+      },
+      {
+          "problem": "blue_screen_of_death_bsod",
+          "solution": "Check for hardware issues like overheating or faulty RAM. Update drivers. Use system restore to revert recent changes."
+      },
+      {
+          "problem": "application_not_responding",
+          "solution": "End the task in Task Manager. Restart the application. Check for software updates and ensure sufficient memory."
+      },
+      {
+          "problem": "slow_browser_performance",
+          "solution": "Clear cache and cookies. Disable unnecessary extensions. Check for browser updates or try a different browser."
+      },
+      {
+          "problem": "printer_not_responding",
+          "solution": "Restart the printer and computer. Reinstall the printer drivers. Ensure the printer is set as the default device."
+      },
+      {
+          "problem": "email_sync_issues",
+          "solution": "Check the internet connection. Ensure the email client is properly configured. Re-sync the account or reinstall the client."
+      },
+      {
+          "problem": "system_freezes_during_startup",
+          "solution": "Boot into Safe Mode and disable startup programs. Run a virus scan and check for disk errors."
+      },
+      {
+          "problem": "no_internet_connection",
+          "solution": "Restart the router and modem. Check network settings. Reinstall the network drivers if needed."
+      },
+      {
+          "problem": "file_explorer_crashing",
+          "solution": "Restart File Explorer from Task Manager. Clear File Explorer history. Run an SFC scan to repair corrupted system files."
+      },
+      {
+          "problem": "office_application_crashing",
+          "solution": "Run Office diagnostics. Reinstall the Office suite. Ensure that all updates are installed."
+      },
+      {
+          "problem": "software_not_installing",
+          "solution": "Check for administrative privileges. Free up disk space. Run the installer in compatibility mode."
+      },
+      {
+          "problem": "operating_system_update_failing",
+          "solution": "Run the Windows Update Troubleshooter. Clear the Windows Update cache. Try a manual update."
+      },
+      {
+          "problem": "system_restore_failed",
+          "solution": "Disable antivirus temporarily. Run System Restore in Safe Mode. Check for corrupted restore points."
+      },
+      {
+          "problem": "slow_system_performance",
+          "solution": "Check for high CPU or disk usage in Task Manager. Disable unnecessary startup programs. Run a virus and malware scan."
+      },
+      {
+          "problem": "audio_playback_issues",
+          "solution": "Check the audio settings and ensure the correct output device is selected. Reinstall audio drivers."
+      },
+      {
+          "problem": "black_screen_after_login",
+          "solution": "Boot into Safe Mode. Update display drivers. Run System File Checker and DISM tools."
+      },
+      {
+          "problem": "keyboard_shortcuts_not_working",
+          "solution": "Check if Sticky Keys or Filter Keys are enabled. Restart the computer and ensure the keyboard drivers are updated."
+      },
+      {
+          "problem": "disk_drive_not_detected",
+          "solution": "Check the drive connection. Update storage drivers. Reinstall the drive in Disk Management."
+      },
+      {
+          "problem": "frequent_browser_popups",
+          "solution": "Run an adware removal tool. Reset the browser to default settings. Enable pop-up blocking in browser settings."
+      },
+      {
+          "problem": "software_license_not_valid",
+          "solution": "Verify the license key is correct. Ensure the software is activated online. Contact customer support for license issues."
+      },
+      {
+          "problem": "network_drive_not_accessible",
+          "solution": "Ensure the drive is mapped correctly. Check network connectivity and permissions. Re-map the drive if necessary."
+      },
+      {
+          "problem": "desktop_icons_missing",
+          "solution": "Right-click on the desktop and enable 'Show Desktop Icons.' Run a system file check if icons are still missing."
+      },
+      {
+          "problem": "taskbar_not_working",
+          "solution": "Restart Windows Explorer. Check for Windows updates. Run System File Checker (SFC)."
+      },
+      {
+          "problem": "password_reset_failed",
+          "solution": "Ensure that the email address is correct. Check your spam folder for the reset email. Contact support if the issue persists."
+      },
+      {
+          "problem": "cannot_open_pdf_files",
+          "solution": "Ensure the PDF reader is installed and updated. Check the file for corruption. Reinstall the PDF reader if necessary."
+      },
+      {
+          "problem": "outlook_not_sending_emails",
+          "solution": "Check the Outbox for stuck messages. Reconfigure the email account. Repair or reinstall Microsoft Outlook."
+      },
+      {
+          "problem": "backup_failed",
+          "solution": "Ensure there is sufficient storage space for the backup. Check for drive errors and try again. Use a different backup tool."
+      },
+      {
+          "problem": "windows_firewall_blocking_program",
+          "solution": "Add an exception for the program in Windows Firewall. Ensure the program is not flagged by antivirus software."
+      },
+      {
+          "problem": "program_freezes_after_update",
+          "solution": "Check for corrupted files. Reinstall the program. Roll back to a previous version if possible."
+      },
+      {
+          "problem": "screensaver_not_working",
+          "solution": "Ensure the screensaver is enabled in the settings. Update the graphics drivers. Disable conflicting programs."
+      },
+      {
+          "problem": "wifi_frequently_drops",
+          "solution": "Update the Wi-Fi drivers. Reset the router. Change the Wi-Fi channel to avoid interference."
+      },
+      {
+          "problem": "antivirus_slowing_down_system",
+          "solution": "Configure the antivirus settings to reduce system impact. Schedule scans for off-peak hours. Consider switching to a lighter antivirus solution."
+      },
+      {
+          "problem": "onedrive_sync_issues",
+          "solution": "Restart OneDrive and ensure the files are in the correct folder. Re-sign into OneDrive. Check for OneDrive updates."
+      },
+      {
+          "problem": "remote_desktop_not_connecting",
+          "solution": "Ensure the remote computer is on and remote desktop is enabled. Check network connectivity and firewall settings."
+      },
+      {
+          "problem": "windows_search_not_working",
+          "solution": "Restart Windows Search service. Rebuild the search index. Run the Windows Search Troubleshooter."
+      },
+      {
+          "problem": "unresponsive_start_menu",
+          "solution": "Restart Windows Explorer. Run Windows Update. Use System File Checker (SFC) to repair any corrupted files."
+      },
+      {
+          "problem": "excel_file_corrupted",
+          "solution": "Use Excel's built-in repair tool to attempt file recovery. Try opening the file in a different version of Excel."
+      },
+      {
+          "problem": "mobile_app_crashes_on_open",
+          "solution": "Clear the app cache and data. Reinstall the app. Ensure the app is updated to the latest version."
+      },
+      {
+          "problem": "unable_to_print_from_browser",
+          "solution": "Clear browser cache. Ensure the printer is properly installed. Try printing from another browser or program."
+      },
+      {
+          "problem": "google_chrome_not_loading_pages",
+          "solution": "Clear browser cache and cookies. Disable extensions. Reinstall Chrome if the issue persists."
+      },
+      {
+          "problem": "application_slow_to_start",
+          "solution": "Disable unnecessary startup programs. Reinstall the application. Upgrade system memory if needed."
+      },
+      {
+          "problem": "program_settings_not_saving",
+          "solution": "Ensure the program has the necessary permissions to write settings. Run the program as administrator."
+      },
+      {
+          "problem": "virtual_machine_not_starting",
+          "solution": "Check if virtualization is enabled in the BIOS. Ensure the virtual machine software is updated. Reinstall the virtual machine."
+      },
+      {
+          "problem": "bluetooth_devices_not_connecting",
+          "solution": "Ensure the Bluetooth adapter is enabled. Update the Bluetooth drivers. Restart the device and computer."
+      },
+      {
+          "problem": "vpn_not_connecting",
+          "solution": "Check the internet connection. Ensure the VPN credentials are correct. Update the VPN client."
+      },
+      {
+          "problem": "disk_space_discrepancy",
+          "solution": "Run a disk cleanup to remove unnecessary files. Check for hidden files and system restore points taking up space."
+      },
+      {
+          "problem": "application_installed_but_not_showing",
+          "solution": "Check if the application is installed in the correct directory. Run the program as administrator."
+      },
+      {
+          "problem": "system_overheating_during_updates",
+          "solution": "Ensure proper ventilation. Clean dust from the fans. Monitor the system temperature during updates."
+      },
+      {
+          "problem": "windows_defender_real_time_protection_disabled",
+          "solution": "Re-enable Real-Time Protection in the Windows Security settings. Run a full system scan."
+      },
+      {
+          "problem": "excel_formula_not_calculating",
+          "solution": "Ensure the cell is formatted correctly. Check for circular references. Enable automatic calculations in Excel options."
+      },
+      {
+          "problem": "software_blocked_by_group_policy",
+          "solution": "Consult the system administrator to modify group policy settings. Ensure the software is compliant with security policies."
+      },
+      {
+          "problem": "missing_dll_files",
+          "solution": "Reinstall the affected program. Run System File Checker (SFC). Manually register the missing DLL files."
+      },
+      {
+          "problem": "screen_resolution_options_missing",
+          "solution": "Update the display drivers. Check if the monitor is properly connected. Use an alternate display adapter if necessary."
+      },
+      {
+          "problem": "usb_device_not_recognized",
+          "solution": "Try a different USB port. Update the USB drivers. Restart the computer and reconnect the device."
+      },
+      {
+          "problem": "windows_update_stuck_downloading",
+          "solution": "Run the Windows Update Troubleshooter. Clear the Windows Update cache. Try restarting the download."
+      },
+      {
+          "problem": "error_when_accessing_shared_folder",
+          "solution": "Ensure correct permissions are granted. Check the network connectivity. Re-share the folder if necessary."
+      },
+      {
+          "problem": "frequent_adobe_reader_crashes",
+          "solution": "Update Adobe Reader to the latest version. Clear the cache. Reinstall Adobe Reader if the problem persists."
+      },
+      {
+          "problem": "password_manager_not_syncing",
+          "solution": "Ensure the password manager is signed into the correct account. Check for software updates."
+      },
+      {
+          "problem": "linux_application_installation_failed",
+          "solution": "Update the package repository. Use sudo for administrative privileges. Check for missing dependencies."
+      },
+      {
+          "problem": "no_sound_from_headphones",
+          "solution": "Check the sound settings to ensure the headphones are selected. Restart the audio services. Reinstall the audio drivers."
+      },
+      {
+          "problem": "windows_activation_failed",
+          "solution": "Verify the product key is valid. Re-enter the product key. Contact Microsoft support for activation help."
+      },
+      {
+          "problem": "screen_tearing_in_games",
+          "solution": "Enable V-Sync in the game settings. Update graphics drivers. Check for overheating."
+      },
+      {
+          "problem": "error_when_opening_program",
+          "solution": "Check the program compatibility. Run the program as administrator. Reinstall the program if needed."
+      },
+      {
+          "problem": "application_unable_to_save_file",
+          "solution": "Ensure the destination folder has write permissions. Check for file corruption. Free up disk space."
+      },
+      {
+          "problem": "computer_randomly_restarts",
+          "solution": "Check for overheating issues. Update drivers. Run a virus scan to check for malicious software."
+      },
+      {
+          "problem": "windows_network_adapter_disabled",
+          "solution": "Re-enable the network adapter in Device Manager. Restart the computer. Reinstall the network drivers."
+      },
+      {
+          "problem": "boot_loader_error",
+          "solution": "Use the Windows installation media to repair the bootloader. Check the BIOS settings for proper boot configuration."
+      },
+      {
+          "problem": "data_corruption_after_power_outage",
+          "solution": "Run chkdsk to check for disk errors. Restore data from backups. Use file repair tools to recover corrupted files."
+      },
+      {
+          "problem": "broken_registry_entries",
+          "solution": "Use a registry cleaner to fix broken entries. Manually edit the registry if necessary. Create a backup before making changes."
+      },
+      {
+          "problem": "cpu_usage_100_percent",
+          "solution": "Check for resource-hogging applications in Task Manager. Disable unnecessary startup programs. Check for malware."
+      },
+      {
+          "problem": "missing_boot_configuration_data_bcd",
+          "solution": "Use the Windows installation media to rebuild the BCD. Run bootrec commands from the Command Prompt."
+      },
+      {
+          "problem": "unable_to_access_bios",
+          "solution": "Ensure the correct key is being pressed at startup. Try resetting the BIOS by removing the CMOS battery. Check for keyboard issues."
+      },
+      {
+          "problem": "software_settings_reset_after_restart",
+          "solution": "Check if the software has administrative privileges. Reinstall the software. Ensure the settings file is not corrupted."
+      },
+      {
+          "problem": "touch_screen_not_working",
+          "solution": "Ensure the touch screen drivers are installed. Calibrate the touch screen in the settings. Restart the device."
+      },
+      {
+          "problem": "windows_security_alert",
+          "solution": "Check for false positives in Windows Defender. Run a full system scan. Update Windows Security definitions."
+      },
+      {
+          "problem": "device_manager_missing_entries",
+          "solution": "Enable 'Show hidden devices' in Device Manager. Reinstall the missing drivers. Check for hardware malfunctions."
+      },
+      {
+          "problem": "file_sharing_not_working",
+          "solution": "Check the network sharing settings. Ensure the correct permissions are granted. Restart the networking services."
+      },
+      {
+          "problem": "network_time_out_error",
+          "solution": "Check the internet connection. Reconfigure the network settings. Restart the router and try again."
+      },
+      {
+          "problem": "windows_update_repeatedly_failing",
+          "solution": "Run the Windows Update Troubleshooter. Clear the Windows Update cache. Try updating manually."
+      },
+      {
+          "problem": "software_interface_unresponsive",
+          "solution": "Restart the software. Check for pending updates. Reinstall the software if necessary."
+      },
+      {
+          "problem": "missing_applications_after_windows_reset",
+          "solution": "Reinstall the missing applications. Ensure backups are available before performing a reset."
+      },
+      {
+          "problem": "hard_drive_partition_missing",
+          "solution": "Check Disk Management for the missing partition. Recover the partition using partition recovery tools."
+      },
+      {
+          "problem": "system_clock_incorrect",
+          "solution": "Sync the system clock with an internet time server. Replace the CMOS battery if necessary."
+      },
+      {
+          "problem": "printer_offline",
+          "solution": "Restart the printer and computer. Ensure the printer is connected to the network. Reinstall the printer drivers."
+      },
+      {
+          "problem": "external_monitor_not_detected",
+          "solution": "Check the cable connections. Update the display drivers. Reconfigure the display settings."
+      },
+      {
+          "problem": "application_requires_elevated_privileges",
+          "solution": "Run the application as administrator. Adjust the application’s compatibility settings."
+      },
+      {
+          "problem": "windows_cannot_find_drive",
+          "solution": "Ensure the drive is properly connected. Run a disk check to diagnose issues. Reinstall the drive drivers."
+      },
+      {
+          "problem": "microsoft_store_app_wont_install",
+          "solution": "Clear the Microsoft Store cache. Re-sign into the Microsoft Store. Reset the app settings."
+      },
+      {
+          "problem": "browser_forgets_passwords",
+          "solution": "Ensure password-saving is enabled in the browser settings. Clear cache and cookies. Reinstall the browser."
+      },
+      {
+          "problem": "system_overheating_while_gaming",
+          "solution": "Check the system temperature using monitoring software. Clean the fans and ensure adequate airflow."
+      },
+      {
+          "problem": "missing_taskbar_icons",
+          "solution": "Restart Windows Explorer. Rebuild the icon cache. Run System File Checker (SFC)."
+      },
+      {
+          "problem": "windows_firewall_not_turning_on",
+          "solution": "Restart the Windows Firewall service. Run the Windows Firewall Troubleshooter. Reinstall firewall drivers."
+      },
+      {
+          "problem": "cpu_fan_error_on_boot",
+          "solution": "Check if the CPU fan is connected properly. Clean the fan and heatsink. Replace the fan if necessary."
+      },
+      {
+          "problem": "no_sound_after_updating_windows",
+          "solution": "Reinstall audio drivers. Check the default playback device in audio settings. Roll back the update if necessary."
+      }
+      
+]
